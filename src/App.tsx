@@ -1,4 +1,4 @@
-import { Navigate, Route, Routes } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom"
 import AboutUsPage from "./pages/AboutUsPage"
 import CreditsPage from "./pages/CreditsPage"
 import HelpPage from "./pages/HelpPage"
@@ -14,7 +14,8 @@ import KathoPage from "./pages/KathoPage"
 
 function App() {
   return (
-    <Routes>
+     <Router basename="/upanishads_repo">
+    <Routes >
       <Route path="/" element={<Home />} />
       <Route path="/static_home_page" element={<Static_Home_Page />} />
 
@@ -32,6 +33,7 @@ function App() {
       <Route path="/help" element={<HelpPage />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
+     </Router>
   )
 }
 
