@@ -5,6 +5,7 @@ import EnterButton from "../assets/button_texture.png"
 import Audio from "../assets/bg_audio.mp3"
 import FallbackImage from "../assets/background/bg_static_image.png"
 import VidAud from "../assets/background/bg.mp4"
+import { Link } from "react-router-dom"
 
 const Home = () => {
   // Added this new state and function
@@ -108,8 +109,7 @@ const Home = () => {
 
       {/* 1st Enter Button with External Link */}
       <div className="fixed bottom-[-1%] right-[46%] h-[24vh] max-w-[50vh] opacity-0">
-        <a
-          href="/isha" // Add Link Here
+        <Link to="/isha" // Add Link Here
           // target="_blank"
           // rel="noopener noreferrer"
         >
@@ -118,7 +118,7 @@ const Home = () => {
             alt="Enter Button 1"
             className="h-[80%] w-[80%] object-contain cursor-pointer opacity-0"
           />
-        </a>
+        </Link>
       </div>
 
       {/* 2nd Enter Button with External Link */}
@@ -138,8 +138,7 @@ const Home = () => {
 
       {/* 3rd Enter Button with External Link */}
       <div className="fixed bottom-[-1%] right-[1%] h-[24vh] max-w-[50vh] opacity-0">
-        <a
-          href="/katho"
+        <Link to="/katho"
           // target="_blank"
           // rel="noopener noreferrer"
         >
@@ -148,7 +147,7 @@ const Home = () => {
             alt="Enter Button 3"
             className="h-[80%] w-[80%] object-contain cursor-pointer opacity-0"
           />
-        </a>
+        </Link>
       </div>
     </div>
   )
