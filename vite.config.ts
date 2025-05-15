@@ -22,7 +22,5 @@ export default defineConfig({
       },
     },
   },
-  define: {
-    require: "undefined",
-  },
+  
 })
