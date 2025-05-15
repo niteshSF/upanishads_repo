@@ -4,10 +4,6 @@
 
 Ishavasyopanishad is part of the upanishad apps developed by Samskriti Foundation, Mysore.
 
-### Links to Related Repositories:
-  
-- Upanishads backend: [https://github.com/Samskriti-Foundation/upanishads-backend](https://github.com/Samskriti-Foundation/upanishads-backend)
-
 ## Installation
 
 1. **Clone the Repository:**
