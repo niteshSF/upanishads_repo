@@ -4,7 +4,7 @@ import { defineConfig } from "vite"
 
 export default defineConfig({
   plugins: [react()],
-  base: "/",
+  base: "/upanishads_repo/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
